@@ -1,0 +1,19 @@
+{
+  "name": "react-principles",
+  "version": "1.0.0",
+  "description": "This is a repository to create a basic example off all principles of react ex: hooks, customized hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zigotho/react-principles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zigotho/react-principles/issues"
+  },
+  "homepage": "https://github.com/Zigotho/react-principles#readme"
+}
