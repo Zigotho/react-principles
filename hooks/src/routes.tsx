@@ -1,7 +1,9 @@
 import { Route, Routes as BrowseRoute } from "react-router-dom";
-import { ListPokemonSeenProvider } from "./pages/useContext/context/newPokemons";
-import { ListPokemon } from "./pages/useContext/pages/listPokemon";
-import { PokemonDetail } from "./pages/useContext/pages/pokemonDetail";
+import {
+  ListPokemon,
+  ListPokemonSeenProvider,
+  PokemonDetail,
+} from "./pages/useContext/";
 import { UseEffect } from "./pages/useEffect";
 import { UseState } from "./pages/useState";
 
