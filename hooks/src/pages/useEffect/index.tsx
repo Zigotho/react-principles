@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
-import "./index.css";
+import { useEffect, useState } from 'react';
+import './index.css';
 
 export const UseEffect = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number>(0);
 
   useEffect(() => {
     document.title = `Count ${count}`;
@@ -11,9 +11,14 @@ export const UseEffect = () => {
   return (
     <div className="App">
       <div className="card">
-        <h1>Counter: {count}</h1>
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <h1>
+          Counter:
+          {count}
+        </h1>
+        <button type="submit" onClick={() => setCount((prevCount) => prevCount + 1)}>
+          count is
+          {' '}
+          {count}
         </button>
       </div>
     </div>
