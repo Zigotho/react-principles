@@ -1,2 +1,2 @@
-export * from "./listPokemon";
-export * from "./pokemonDetail";
+export * from './listPokemon';
+export * from './pokemonDetail';

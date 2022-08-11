@@ -8,7 +8,8 @@ type Pages = {
 export const Home = () => {
   const AllPages: Pages[] = [
     { label: 'UseEffect', path: '/useEffect' },
-    { label: 'UseState', path: '/useState' }
+    { label: 'UseState', path: '/useState' },
+    { label: 'UseContext', path: '/pokemon' }
   ];
   return (
     <div className="App">
