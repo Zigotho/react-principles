@@ -6,6 +6,7 @@ import {
     PokemonDetail
 } from './pages/useContext';
 import { UseEffect } from './pages/useEffect';
+import { UseRef } from './pages/useRef';
 import { UseState } from './pages/useState';
 
 export const Routes = () => (
@@ -29,6 +30,7 @@ export const Routes = () => (
     />
     <Route path="/useEffect" element={<UseEffect />} />
     <Route path="/useState" element={<UseState />} />
+    <Route path="/useRef" element={<UseRef />} />
     <Route
       path="*"
       element={(

@@ -9,7 +9,8 @@ export const Home = () => {
   const AllPages: Pages[] = [
     { label: 'UseEffect', path: '/useEffect' },
     { label: 'UseState', path: '/useState' },
-    { label: 'UseContext', path: '/pokemon' }
+    { label: 'UseContext', path: '/pokemon' },
+    { label: 'UseRef', path: '/useRef' }
   ];
   return (
     <div className="App">
