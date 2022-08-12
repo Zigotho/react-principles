@@ -10,7 +10,8 @@ export const Home = () => {
     { label: 'UseEffect', path: '/useEffect' },
     { label: 'UseState', path: '/useState' },
     { label: 'UseContext', path: '/pokemon' },
-    { label: 'UseRef', path: '/useRef' }
+    { label: 'UseRef', path: '/useRef' },
+    { label: 'UseReducer', path: '/useReducer' }
   ];
   return (
     <div className="App">
