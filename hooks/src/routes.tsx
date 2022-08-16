@@ -1,5 +1,6 @@
 import { Route, Routes as BrowseRoute } from 'react-router-dom';
 import { Home } from './pages/home';
+import { UseCallback } from './pages/useCallback';
 import {
     ListPokemon,
     ListPokemonSeenProvider,
@@ -33,6 +34,7 @@ export const Routes = () => (
     <Route path="/useState" element={<UseState />} />
     <Route path="/useRef" element={<UseRef />} />
     <Route path="/useReducer" element={<UseReducer />} />
+    <Route path="/useCallback" element={<UseCallback />} />
     <Route
       path="*"
       element={(

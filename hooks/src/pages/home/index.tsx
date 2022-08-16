@@ -11,7 +11,8 @@ export const Home = () => {
     { label: 'UseState', path: '/useState' },
     { label: 'UseContext', path: '/pokemon' },
     { label: 'UseRef', path: '/useRef' },
-    { label: 'UseReducer', path: '/useReducer' }
+    { label: 'UseReducer', path: '/useReducer' },
+    { label: 'UseCallback', path: '/useCallback' }
   ];
   return (
     <div className="App">
